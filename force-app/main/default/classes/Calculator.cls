@@ -1,9 +1,8 @@
 /******************************************
- * Description: This class created to perform Calculations
- * 
- * Added Division
- * 
- * ******************************************/
+ Description: This class created to perform Calculations
+ Added Division
+ Added Subtract 
+ *******************************************/
 public with sharing class Calculator {
     public Calculator() {
         system.debug('method not defined');
@@ -14,4 +13,7 @@ public with sharing class Calculator {
     public integer division(integer a, integer b){
         return a/b;
     }   
+    public integer sub(integer a, integer b){
+        return a-b;
+    }     
 }
